@@ -273,11 +273,13 @@ class UseCalculate {
 				case 1:
 					Calculator obj = new Calculator();
 					obj.Calculation();
+					break;
 				case 2:
 					ScientificCalculator obj2 = new ScientificCalculator();
 					obj2.ScientificCalculation();
+					break;
 				}
-				System.out.println("Do you want to continue the calculation (1/0)? ");
+				System.out.println("Do you want to continue to use the calculator (1/0)? ");
 				int check = Integer.parseInt(br.readLine());
 				if(check == 1)
 				{
