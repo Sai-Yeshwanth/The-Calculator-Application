@@ -10,6 +10,7 @@ public interface test
 
 	void doCalculation();
 	void getResult();
+
 }
 
 
