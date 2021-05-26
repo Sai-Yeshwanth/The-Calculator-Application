@@ -231,11 +231,6 @@ class ScientificCalculator extends Calculate
 				System.out.println("Invalid!!! Enter only Numbers!!!! " + e);
 				System.exit(0);
 			} 
-			catch (IOException e) 
-			{
-				System.out.println("Invalid!!! Enter valid input!!! " + e);
-				System.exit(0);
-			}
 			System.out.println("Enter the operator as : sine/cosine/tangent/log");
 			String operator1 = br.readLine();
 			char operator = operator1.charAt(0);
