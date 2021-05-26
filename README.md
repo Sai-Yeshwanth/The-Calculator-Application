@@ -15,6 +15,7 @@ public interface test
 
 class Calculate implements test
 {
+
 	private char op;
 	
 	private int resultcal;
