@@ -1,24 +1,34 @@
 import java.io.BufferedReader;
+
 import java.io.IOException;
+
 import java.io.InputStreamReader;
 
-public interface test {
+
+public interface test
+{
+
 	void doCalculation();
 	void getResult();
 }
 
 
-class Calculate implements test{
+class Calculate implements test
+{
 	private char op;
+	
 	private int resultcal;
+	
 	private double resultsin;
+	
 	private int first,second;
+	
 	private boolean checki,checkd;
+	
 	private double num;
+	
 	Calculate()
-	{
-		
-	}
+	{	}
 	Calculate(Double dblNum,char cOperator)
 	{
 		num = dblNum;
