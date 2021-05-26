@@ -30,7 +30,9 @@ class Calculate implements test
 	private double num;
 	
 	Calculate()
-	{	}
+	{	
+	
+	}
 	Calculate(Double dblNum,char cOperator)
 	{
 		num = dblNum;
