@@ -206,7 +206,9 @@ class Calculator {
 }
 
 
-class ScientificCalculator extends Calculate{
+class ScientificCalculator extends Calculate
+{
+	
 	double number=0;
 	char operator = 0;
 	
